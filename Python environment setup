@@ -1,0 +1,24 @@
+1) Creat new environment on Anaconda for Python 2.7
+2) Install all the dependent libraries :
+
+      !pip install secretsharing
+      !pip install jsonpickle
+      !pip install Crypto
+      !pip install pycrypto
+      !pip install argon2_cffi
+      !pip install passlib
+      import secretsharing as sss
+      import jsonpickle # install via  "$ sudo pip install -U jsonpickle"
+      from passlib.hash import pbkdf2_sha256,argon2,sha512_crypt,sha1_crypt
+      from hashlib import sha256
+      import base64
+      from Crypto.Cipher import AES
+      from Crypto import Random
+      import os
+      
+      However it didn't work for some reason.
+      
+      
+      Then used Google Colab https://colab.research.google.com/drive/1pBjpNr-XeUCm8me-izWukdrbd1PdgQ-K#scrollTo=3bYwt8MgimCa
+      as an online python notebook 
+      Installed all the above pre-requisites on this notebook.
